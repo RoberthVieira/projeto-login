@@ -14,7 +14,7 @@ amarelo
 }
 
 body, html{
-    background-color: white;
+    background-color: black;
     height: 100vh;
     width: 100vw;
 }
@@ -37,6 +37,9 @@ section#Login{
     width: 250px;
     height: 500px;
     border-radius: 20px;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div#imagem{
